@@ -106,21 +106,91 @@ body {
     margin: 5px 0;
 }
 
+.textosp {
+    padding: 10px 0px 30px 110px;
+}
+
+.textosp1 {
+    padding: 10px 0px 30px 110px;
+}
+
+
+/*sliders*/
+
+.slider {
+    border: 4px solid #4d0686;
+}
+
+.slider {
+    padding: 30 30 20 30;
+    width: 50%;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 12s infinite alternate;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+    padding: 1px 100px 1px 100px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    40% {
+        margin-left: 0;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    90% {
+        margin-left: -100%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -200%;
+    }
+}
+
 
 /*header*/
 
 header {
     width: 100%;
     height: 600px;
-    background: rgb(212, 0, 255);
+    background: rgb(0, 162, 255);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(323, 19%, 24%, 0.658), hsla(276, 96%, 50%, 0.637)), url(../estasi/imgrepre/frome.jpg);
+    background: -webkit-linear-gradient(to right, hsla(214, 68%, 60%, 0.658), hsla(199, 60%, 32%, 0.726)), url(https://www.reporteindigo.com/wp-content/uploads/2019/08/refugiados-espanoles-ciencia.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(322, 21%, 28%, 0.596), hsla(290, 96%, 50%, 0.575)), url(../estasi/imgrepre/frome.jpg);
+    background: linear-gradient(to right, hsla(239, 28%, 43%, 0.712), hsla(197, 48%, 45%, 0.774)), url(https://www.reporteindigo.com/wp-content/uploads/2019/08/refugiados-espanoles-ciencia.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.video video {
+    padding: 0% 0px 0px 0px;
+    width: 100%;
 }
 
 nav {
@@ -209,6 +279,13 @@ main .sobre-nosotros {
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+}
+
+
+/*juego*/
+
+.juego {
+    padding: 5px 1340px 100px 100%;
 }
 
 
